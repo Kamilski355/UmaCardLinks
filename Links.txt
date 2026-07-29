@@ -1,1 +1,4 @@
-
+Support Cards | https://gametora.com/data/umamusume/support-cards.81a5237a.json
+Character Cards | https://gametora.com/data/umamusume/character-cards.e3c808ce.json
+Characters | https://gametora.com/data/umamusume/characters.cceeef09.json
+Skills | https://gametora.com/data/umamusume/skills.ca7581b7.json
