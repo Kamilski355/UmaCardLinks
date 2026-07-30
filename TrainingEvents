@@ -1,1 +1,34 @@
+#SPECIAL WEEK
+CHARACTER 1001
 
+EVENT Watch Where You're Going!
+
+CHOICE
+hint 200762 1
+bond 5
+END
+
+CHOICE
+guts 15
+bond 5
+END
+
+ENDEVENT
+
+
+EVENT So Many Options!
+
+CHOICE
+energy 10
+mood 1
+bond 5
+END
+
+CHOICE
+energy -10
+stamina 15
+skill_points 15
+bond 5
+END
+
+ENDEVENT
