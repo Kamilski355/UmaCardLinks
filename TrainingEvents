@@ -67,3 +67,37 @@ bond 5
 END
 
 ENDEVENT
+
+
+#TOKAI TEIO
+CHARACTER 1003
+
+EVENT My Way, Or...
+
+CHOICE
+mood 1
+skill_points 15
+bond 5
+END
+
+CHOICE
+guts 15
+bond 5
+END
+
+ENDEVENT
+
+EVENT My Weapon
+
+CHOICE
+mood 1
+guts 10
+bond 5
+END
+
+CHOICE
+hint 201312 1
+bond 5
+END
+
+ENDEVENT
