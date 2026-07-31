@@ -32,3 +32,38 @@ bond 5
 END
 
 ENDEVENT
+
+
+#SILENCE SUZUKA
+CHARACTER 1002
+
+EVENT On and On
+
+CHOICE
+speed 10
+stamina 5
+bond 5
+END
+
+CHOICE
+speed 15
+bond 5
+END
+
+ENDEVENT
+
+EVENT What Should I Do?
+
+CHOICE
+speed 5
+stamina 5
+wit 5
+bond 5
+END
+
+CHOICE
+hint 200022 1
+bond 5
+END
+
+ENDEVENT
