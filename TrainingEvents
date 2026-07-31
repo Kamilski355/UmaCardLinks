@@ -101,3 +101,109 @@ bond 5
 END
 
 ENDEVENT
+
+#MARUZENSKY
+CHARACTER 1004
+
+EVENT For an Adorable Younger Student
+
+CHOICE
+hint 200532 1
+bond 5
+END
+
+CHOICE
+energy 5
+speed 10
+bond 5
+END
+
+ENDEVENT
+
+EVENT Drive Destination
+
+CHOICE
+speed 5
+mood 1
+bond 5
+END
+
+CHOICE
+wit 5
+mood 1
+bond 5
+END
+
+ENDEVENT
+
+
+#OGURI CAP
+CHARACTER 1005
+
+EVENT How Should I Respond?
+
+CHOICE
+energy 5
+power 5
+bond 5
+END
+
+CHOICE
+energy -10
+guts 15
+bond 5
+END
+
+ENDEVENT
+
+EVENT Conquering the Crowds
+
+CHOICE
+power 5
+skill_points 15
+bond 5
+END
+
+CHOICE
+hint 200042 1
+bond 5
+END
+
+ENDEVENT
+
+#GOLD SHIP
+CHARACTER 1006
+
+EVENT Adventurer Gold Ship
+
+CHOICE
+stamina 15
+bond 5
+END
+
+CHOICE
+guts 10
+skill_points 15
+bond 5
+END
+
+ENDEVENT
+
+EVENT Revive the Brand! Golshi's Yakisoba
+
+CHOICE
+stamina 5
+mood 1
+bond 5
+END
+
+CHOICE
+hint 200052 1
+bond 5
+END
+
+ENDEVENT
+
+
+
+
