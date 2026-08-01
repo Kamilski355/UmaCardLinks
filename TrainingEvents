@@ -239,7 +239,355 @@ END
 ENDEVENT
 
 
+#TAIKI SHUTTLE
+CHARACTER 1010
 
+EVENT Yes! Let's Hug
+
+CHOICE
+speed 10
+bond 5
+END
+
+CHOICE
+speed 5
+power 5
+bond 5
+END
+
+ENDEVENT
+
+
+EVENT Yeehaw! Party Tonight ☆
+
+CHOICE
+energy -10
+speed 5
+power 10
+bond 5
+END
+
+CHOICE
+hint 200582 1
+bond 5
+END
+
+ENDEVENT
+
+
+#GRASS WONDER
+CHARACTER 1011
+
+EVENT Library Vexation
+
+CHOICE
+wit 10
+bond 5
+END
+
+CHOICE
+guts 5
+wit 5
+bond 5
+END
+
+ENDEVENT
+
+
+EVENT A Friendly Daytime Discussion
+
+CHOICE
+hint 200801 1
+bond 5
+END
+
+CHOICE
+hint 200292 1
+bond 5
+END
+
+ENDEVENT
+
+
+#MEJIRO MCQUEEN
+CHARACTER 1013
+
+EVENT To Maintain My Weight
+
+CHOICE
+energy -10
+stamina 15
+bond 5
+END
+
+CHOICE
+max_energy 4
+stamina 5
+bond 5
+END
+
+ENDEVENT
+
+
+EVENT To Reach the Greatest Heights
+
+CHOICE
+stamina 5
+guts 5
+bond 5
+END
+
+CHOICE
+hint 200532 1
+bond 5
+END
+
+ENDEVENT
+
+
+#EL CONDOR PASA
+CHARACTER 1014
+
+EVENT Blazing Fire!
+
+CHOICE
+stamina 10
+bond 5
+END
+
+CHOICE
+energy -10
+power 20
+bond 5
+END
+
+ENDEVENT
+
+
+EVENT Secret Notebook!
+
+CHOICE
+power 10
+bond 5
+END
+
+CHOICE
+hint 200212 1
+bond 5
+END
+
+ENDEVENT
+
+
+#TM OPERA O
+CHARACTER 1015
+
+EVENT Etude to Victory
+
+CHOICE
+speed 5
+skill_points 30
+mood -1
+bond 5
+END
+
+CHOICE
+power 5
+skill_points 15
+bond 5
+END
+
+ENDEVENT
+
+
+EVENT Beyond Our Limited Time
+
+CHOICE
+energy 10
+skill_points 15
+bond 5
+END
+
+CHOICE
+hint 200142 1
+bond 5
+END
+
+ENDEVENT
+
+
+#SYMBOLI RUDOLF
+CHARACTER 1017
+
+EVENT The Emperor's Encouragement
+
+CHOICE
+speed 10
+bond 5
+END
+
+CHOICE
+energy -10
+skill_points 30
+bond 5
+END
+
+ENDEVENT
+
+
+EVENT The Student Council President's Thoughtfulness
+
+CHOICE
+hint 200232 1
+bond 5
+END
+
+CHOICE
+stamina 15
+bond 5
+END
+
+ENDEVENT
+
+
+#SEIUN SKY
+CHARACTER 1020
+
+EVENT Recruiting Cat Catchers
+
+CHOICE
+energy 10
+wit 5
+bond 5
+END
+
+CHOICE
+energy -10
+speed 15
+stamina 5
+bond 5
+END
+
+ENDEVENT
+
+
+EVENT Recruiting Advisors
+
+CHOICE
+wit 15
+bond 5
+END
+
+CHOICE
+hint 201192 1
+bond 5
+END
+
+ENDEVENT
+
+
+#RICE SHOWER
+CHARACTER 1030
+
+EVENT A Page of Flower Shop Assistance
+
+CHOICE
+mood 2
+bond 5
+END
+
+CHOICE
+stamina 10
+bond 5
+END
+
+ENDEVENT
+
+
+EVENT A Page About Cloudy Weather
+
+CHOICE
+speed 5
+guts 5
+bond 5
+END
+
+CHOICE
+hint 200152 1
+bond 5
+END
+
+ENDEVENT
+
+
+#WINNING TICKET
+CHARACTER 1035
+
+EVENT Full-Power Muscles!
+
+CHOICE
+stamina 5
+skill_points 15
+bond 5
+END
+
+CHOICE
+mood 1
+skill_points 15
+bond 5
+END
+
+ENDEVENT
+
+
+EVENT Full-Power Racing!
+
+CHOICE
+hint 201392 1
+bond 5
+END
+
+CHOICE
+skill_points 30
+bond 5
+END
+
+ENDEVENT
+
+
+#GOLD CITY
+CHARACTER 1040
+
+EVENT 08:36 / Crap, I Overslept
+
+CHOICE
+mood -1
+skill_points 45
+bond 5
+END
+
+CHOICE
+energy 10
+wit 5
+bond 5
+END
+
+ENDEVENT
+
+
+EVENT 13:12 / Lunch Break, Gotta Get Myself Together
+
+CHOICE
+skill_points 30
+bond 5
+END
+
+CHOICE
+hint 201422 1
+bond 5
+END
+
+ENDEVENT
 
 
 
