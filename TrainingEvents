@@ -738,8 +738,6 @@ ENDEVENT
 
 EVENT Tazuna, the Director's Secretary
 
-CHAIN 1
-
 CHOICE
 skill_points 18
 mood 1
@@ -751,8 +749,6 @@ ENDEVENT
 
 EVENT Good Job! ♪
 
-CHAIN 2
-
 CHOICE
 mood 0|1
 speed 3
@@ -763,8 +759,6 @@ ENDEVENT
 
 
 EVENT From Just a Little Closer
-
-CHAIN 3
 
 CHOICE
 speed 7
@@ -780,8 +774,6 @@ ENDEVENT
 
 EVENT The Usual, Please!
 
-CHAIN 4
-
 CHOICE
 speed 6
 stamina 6
@@ -796,8 +788,6 @@ ENDEVENT
 
 EVENT A Bond with Tazuna: Aspirations Entrusted
 
-CHAIN 5
-
 CHOICE
 energy 13
 speed 18
@@ -809,7 +799,82 @@ END
 ENDEVENT
 
 
+EVENT Milk with a Chance of Apples
 
+CHAIN 1
+
+CHOICE
+energy 32
+speed 6
+mood 1
+bond 5
+END
+
+ENDEVENT
+
+
+EVENT Inexplicable Speed
+
+CHAIN 2
+
+CHOICE
+energy 32
+bond 5
+status heal_negative_status
+END
+
+ENDEVENT
+
+
+EVENT Memories of Cinema
+
+CHAIN 3
+
+CHOICE
+energy 32
+stamina 6
+mood 1
+bond 5
+END
+
+CHOICE
+stamina 12
+guts 12
+mood 1
+bond 5
+END
+
+ENDEVENT
+
+
+EVENT A Sigh and a Bandage
+
+CHAIN 4
+
+CHOICE
+energy 45
+wit 6
+mood 1
+bond 5
+status heal_negative_status
+END
+
+ENDEVENT
+
+
+EVENT A Surprise Breather
+
+CHAIN 5
+
+CHOICE
+energy 45
+skill_points 18
+mood 2
+bond 5
+hint 200432 1
+END
+
+ENDEVENT
 
 
 
