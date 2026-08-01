@@ -591,7 +591,225 @@ ENDEVENT
 
 
 
+#SAKURA BAKUSHIN O
+CHARACTER 1041
 
+EVENT Genius Efficiency!
+
+CHOICE
+speed 15
+bond 5
+END
+
+CHOICE
+speed 5
+power 10
+bond 5
+END
+
+ENDEVENT
+
+
+EVENT Enough to Break into a Dash!
+
+CHOICE
+hint 200672 1
+bond 5
+END
+
+CHOICE
+energy -10
+speed 10
+power 5
+bond 5
+END
+
+ENDEVENT
+
+
+#SUPER CREEK
+CHARACTER 1045
+
+EVENT Leave it to Me to Help Out! ♪
+
+CHOICE
+energy 15
+bond 5
+END
+
+CHOICE
+stamina 10
+bond 5
+END
+
+ENDEVENT
+
+
+EVENT Leave it to Me to Be Considerate! ♪
+
+CHOICE
+hint 200742 1
+bond 5
+END
+
+CHOICE
+energy 10
+stamina 5
+bond 5
+END
+
+ENDEVENT
+
+
+#HARU URARA
+CHARACTER 1052
+
+EVENT Urara's ☆ Study Review
+
+CHOICE
+energy 10
+wit 5
+bond 5
+END
+
+CHOICE
+mood 1
+wit 5
+bond 5
+END
+
+ENDEVENT
+
+
+EVENT Urara's ☆ Long Shot Dash!
+
+CHOICE
+hint 200302 1
+bond 5
+END
+
+CHOICE
+mood 1
+energy 10
+bond 5
+END
+
+ENDEVENT
+
+
+#TAZUNA HAYAKAWA
+CHARACTER 0
+
+EVENT My Chosen Way of Life
+
+CHOICE
+energy 13
+mood 1
+bond 5
+END
+
+CHOICE
+mood 1
+wit 6
+bond 5
+END
+
+ENDEVENT
+
+
+EVENT Enthusiastic Pair
+
+CHOICE
+energy 13
+wit 6
+mood 1
+bond 5
+status dating
+END
+
+CHOICE
+mood -1
+bond -5
+hint 200692 1
+status chain_end
+END
+
+ENDEVENT
+
+
+CARD 10021
+
+EVENT Tazuna, the Director's Secretary
+
+CHAIN 1
+
+CHOICE
+skill_points 18
+mood 1
+bond 5
+END
+
+ENDEVENT
+
+
+EVENT Good Job! ♪
+
+CHAIN 2
+
+CHOICE
+mood 0|1
+speed 3
+bond 5
+END
+
+ENDEVENT
+
+
+EVENT From Just a Little Closer
+
+CHAIN 3
+
+CHOICE
+speed 7
+stamina 7
+power 7
+guts 7
+wit 7
+skill_points 36
+END
+
+ENDEVENT
+
+
+EVENT The Usual, Please!
+
+CHAIN 4
+
+CHOICE
+speed 6
+stamina 6
+power 6
+guts 6
+wit 6
+skill_points 24
+END
+
+ENDEVENT
+
+
+EVENT A Bond with Tazuna: Aspirations Entrusted
+
+CHAIN 5
+
+CHOICE
+energy 13
+speed 18
+mood 1
+bond 5
+hint 201611 3
+END
+
+ENDEVENT
 
 
 
