@@ -205,5 +205,52 @@ END
 ENDEVENT
 
 
+#VODKA
+CHARACTER 1008
+
+EVENT The Coolest Line
+
+CHOICE
+power 10
+bond 5
+END
+
+CHOICE 
+power 5
+skill_points 15
+bond 5
+END
+
+ENDEVENT
+
+EVENT Enemies on Main Street
+
+CHOICE
+hint 200492 1
+bond 5
+END
+
+CHOICE
+power 5
+skill_points 15
+bond 5
+END
+
+ENDEVENT
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
