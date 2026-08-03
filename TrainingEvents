@@ -920,8 +920,6 @@ ENDEVENT
 
 EVENT Fellow Trainer Aoi Kiryuin
 
-CHAIN 1
-
 CHOICE
 skill_points 18
 mood 1
@@ -933,8 +931,6 @@ ENDEVENT
 
 EVENT Good Job!
 
-CHAIN 2
-
 CHOICE
 mood 0|1
 wit 3
@@ -945,8 +941,6 @@ ENDEVENT
 
 
 EVENT Gift of Words
-
-CHAIN 3
 
 CHOICE
 speed 6
@@ -963,18 +957,14 @@ ENDEVENT
 
 EVENT The Perfect Place for a Party
 
-CHAIN 4
-
 CHOICE
-status random_3_stats_6
+status random_3_stats_+6
 END
 
 ENDEVENT
 
 
 EVENT A Bond with Aoi: Being a Good Mentor
-
-CHAIN 5
 
 CHOICE
 wit 18
@@ -989,7 +979,7 @@ ENDEVENT
 
 EVENT Studying with Your Body!
 
-CHAIN 6
+CHAIN 1
 
 CHOICE
 energy 32
@@ -1003,7 +993,7 @@ ENDEVENT
 
 EVENT How I Play at the Park
 
-CHAIN 7
+CHAIN 2
 
 CHOICE
 energy 32
@@ -1036,7 +1026,7 @@ ENDEVENT
 
 EVENT Reckless Training
 
-CHAIN 8
+CHAIN 3
 
 CHOICE
 energy 26
@@ -1050,7 +1040,7 @@ ENDEVENT
 
 EVENT The Joy of Respect
 
-CHAIN 9
+CHAIN 4
 
 CHOICE
 power 12
@@ -1064,7 +1054,7 @@ ENDEVENT
 
 EVENT Chasing Dreams
 
-CHAIN 10
+CHAIN 5
 
 CHOICE
 
