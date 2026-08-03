@@ -878,7 +878,219 @@ ENDEVENT
 
 
 
+#AOI KIRYUIN
+CARD 10022
 
+EVENT Trainer Tip: Always Improve Your Coaching
+
+CHOICE
+energy 13
+skill_points 18
+bond 5
+END
+
+CHOICE
+speed 6
+wit 6
+bond 5
+END
+
+ENDEVENT
+
+
+EVENT The Search for a Hobby
+
+CHOICE
+energy 26
+skill_points 18
+mood 1
+bond 5
+status dating
+END
+
+CHOICE
+mood -1
+hint 200272 1
+bond -5
+status chain_end
+END
+
+ENDEVENT
+
+
+EVENT Fellow Trainer Aoi Kiryuin
+
+CHAIN 1
+
+CHOICE
+skill_points 18
+mood 1
+bond 5
+END
+
+ENDEVENT
+
+
+EVENT Good Job!
+
+CHAIN 2
+
+CHOICE
+mood 0|1
+wit 3
+bond 5
+END
+
+ENDEVENT
+
+
+EVENT Gift of Words
+
+CHAIN 3
+
+CHOICE
+speed 6
+stamina 6
+power 6
+guts 6
+wit 6
+hint 200941 1|3
+hint 200442 3
+END
+
+ENDEVENT
+
+
+EVENT The Perfect Place for a Party
+
+CHAIN 4
+
+CHOICE
+status random_3_stats_6
+END
+
+ENDEVENT
+
+
+EVENT A Bond with Aoi: Being a Good Mentor
+
+CHAIN 5
+
+CHOICE
+wit 18
+skill_points 18
+mood 1
+hint 201621 1|3
+bond 5
+END
+
+ENDEVENT
+
+
+EVENT Studying with Your Body!
+
+CHAIN 6
+
+CHOICE
+energy 32
+skill_points 36
+mood 2
+bond 5
+END
+
+ENDEVENT
+
+
+EVENT How I Play at the Park
+
+CHAIN 7
+
+CHOICE
+energy 32
+wit 6
+mood 0|1
+bond 5
+END
+
+CHOICE
+RANDOM
+
+skill_points 18
+bond 5
+
+END
+
+RANDOM
+
+speed 6
+skill_points 54
+mood 1
+bond 5
+
+END
+
+END
+
+ENDEVENT
+
+
+EVENT Reckless Training
+
+CHAIN 8
+
+CHOICE
+energy 26
+skill_points 36
+mood 1
+bond 5
+END
+
+ENDEVENT
+
+
+EVENT The Joy of Respect
+
+CHAIN 9
+
+CHOICE
+power 12
+skill_points 54
+mood 1
+bond 5
+END
+
+ENDEVENT
+
+
+EVENT Chasing Dreams
+
+CHAIN 10
+
+CHOICE
+
+RANDOM
+
+stamina 6
+skill_points 12
+bond 5
+
+END
+
+RANDOM
+
+stamina 6
+power 6
+guts 6
+skill_points 26
+mood 1
+hint 200831 3
+bond 5
+
+END
+
+END
+
+ENDEVENT
 
 
 
